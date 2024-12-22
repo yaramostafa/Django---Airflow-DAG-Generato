@@ -1,0 +1,6 @@
+{"asset_id": "123", "attribute_id": "101", "timestamp": "2022-07-31T23:28:37Z[UTC]", "value": "10"}
+{"asset_id": "124", "attribute_id": "102", "timestamp": "2022-07-31T23:28:42Z[UTC]", "value": "dog_bark"}
+{"asset_id": "125", "attribute_id": "103", "timestamp": "2022-07-31T23:28:47Z[UTC]", "value": "40"}
+{"asset_id": "126", "attribute_id": "104", "timestamp": "2022-07-31T23:28:52Z[UTC]", "value": "cat_meow"}
+{"asset_id": "127", "attribute_id": "101", "timestamp": "2022-07-31T23:28:37Z[UTC]", "value": "15"}
+{"asset_id": "128", "attribute_id": "102", "timestamp": "2022-07-31T23:28:42Z[UTC]", "value": "doggie"}

@@ -1,0 +1,11 @@
+
+{"asset_id": "123", "attribute_id": "output_101", "timestamp": "2022-07-31T23:28:37Z[UTC]", "value": 60.0}
+{"asset_id": "125", "attribute_id": "output_103", "timestamp": "2022-07-31T23:28:47Z[UTC]", "value": 240.0}
+{"asset_id": "123", "attribute_id": "output_101", "timestamp": "2022-07-31T23:28:37Z[UTC]", "value": "False"}
+{"asset_id": "124", "attribute_id": "output_102", "timestamp": "2022-07-31T23:28:42Z[UTC]", "value": "True"}
+{"asset_id": "125", "attribute_id": "output_103", "timestamp": "2022-07-31T23:28:47Z[UTC]", "value": "False"}
+{"asset_id": "126", "attribute_id": "output_104", "timestamp": "2022-07-31T23:28:52Z[UTC]", "value": "False"}
+{"asset_id": "123", "attribute_id": "output_101", "timestamp": "2022-07-31T23:28:37Z[UTC]", "value": "False"}
+{"asset_id": "124", "attribute_id": "output_102", "timestamp": "2022-07-31T23:28:42Z[UTC]", "value": "True"}
+{"asset_id": "125", "attribute_id": "output_103", "timestamp": "2022-07-31T23:28:47Z[UTC]", "value": "False"}
+{"asset_id": "126", "attribute_id": "output_104", "timestamp": "2022-07-31T23:28:52Z[UTC]", "value": "False"}

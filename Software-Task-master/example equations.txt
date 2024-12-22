@@ -1,0 +1,2 @@
+ATTR+50*(ATTR/10)
+Regex(ATTR, "^dog")
