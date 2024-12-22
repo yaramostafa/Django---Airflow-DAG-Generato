@@ -1,0 +1,126 @@
+[2024-12-21T09:14:16.846+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:14:16.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:14:16.855+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:14:16.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:14:16.899+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:14:16.891+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:14:16.909+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:14:17.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 0.217 seconds
+[2024-12-21T09:14:47.121+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:14:47.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:14:47.126+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:14:47.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:14:47.267+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:14:47.252+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:14:47.270+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:14:47.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 0.185 seconds
+[2024-12-21T09:15:17.687+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:15:17.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:15:17.691+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:15:17.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:15:17.706+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:15:17.702+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:15:17.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:15:17.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 0.048 seconds
+[2024-12-21T09:15:49.827+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:15:49.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:15:49.834+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:15:49.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:15:49.853+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:15:49.849+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:15:49.854+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:16:16.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 26.679 seconds
+[2024-12-21T09:16:46.897+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:16:46.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:16:46.903+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:16:46.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:16:46.921+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:16:46.917+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:16:46.922+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:16:46.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 0.058 seconds
+[2024-12-21T09:17:17.699+0000] {processor.py:186} INFO - Started process (PID=406) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:17:17.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:17:17.705+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:17:17.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:17:17.723+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:17:17.720+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:17:17.724+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:17:17.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 0.060 seconds
+[2024-12-21T09:17:36.556+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:17:36.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:17:36.561+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:17:36.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:17:36.601+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:17:36.596+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:17:36.602+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:17:36.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 0.081 seconds
+[2024-12-21T09:18:07.590+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:18:07.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:18:07.596+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:18:07.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:18:07.629+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:18:07.619+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:18:07.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:18:07.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 0.101 seconds
+[2024-12-21T09:18:39.003+0000] {processor.py:186} INFO - Started process (PID=555) to work on /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:18:39.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_simulator_dags.py for tasks to queue
+[2024-12-21T09:18:39.017+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:18:39.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:18:39.036+0000] {logging_mixin.py:190} INFO - [2024-12-21T09:18:39.032+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_simulator_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_simulator_dags.py", line 8, in <module>
+    from simulator.models import Simulator
+ModuleNotFoundError: No module named 'simulator'
+[2024-12-21T09:18:39.039+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_simulator_dags.py
+[2024-12-21T09:18:39.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_simulator_dags.py took 0.071 seconds

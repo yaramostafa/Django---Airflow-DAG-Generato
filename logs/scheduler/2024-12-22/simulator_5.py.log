@@ -1,0 +1,22 @@
+[2024-12-22T11:56:32.859+0000] {processor.py:186} INFO - Started process (PID=67) to work on /opt/airflow/dags/simulator_5.py
+[2024-12-22T11:56:32.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulator_5.py for tasks to queue
+[2024-12-22T11:56:32.863+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:32.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulator_5.py
+[2024-12-22T11:56:32.896+0000] {processor.py:925} INFO - DAG(s) 'simulator_5' retrieved from /opt/airflow/dags/simulator_5.py
+[2024-12-22T11:56:33.120+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.119+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:simulator_5
+[2024-12-22T11:56:33.134+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.134+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:simulator_5
+[2024-12-22T11:56:33.144+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.143+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:simulator_5
+[2024-12-22T11:56:33.155+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.155+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:simulator_5
+[2024-12-22T11:56:33.164+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.164+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:simulator_5
+[2024-12-22T11:56:33.173+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.172+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:simulator_5
+[2024-12-22T11:56:33.181+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.181+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:simulator_5
+[2024-12-22T11:56:33.182+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T11:56:33.200+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.200+0000] {dag.py:3262} INFO - Creating ORM DAG for simulator_5
+[2024-12-22T11:56:33.213+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:56:33.213+0000] {dag.py:4180} INFO - Setting next_dagrun for simulator_5 to 2024-12-29 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2024-12-22T11:56:33.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulator_5.py took 0.384 seconds
+[2024-12-22T11:57:04.351+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/simulator_5.py
+[2024-12-22T11:57:04.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulator_5.py for tasks to queue
+[2024-12-22T11:57:04.355+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:57:04.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulator_5.py
+[2024-12-22T11:57:04.384+0000] {processor.py:925} INFO - DAG(s) 'simulator_5' retrieved from /opt/airflow/dags/simulator_5.py
+[2024-12-22T11:57:04.419+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:57:04.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T11:57:04.467+0000] {logging_mixin.py:190} INFO - [2024-12-22T11:57:04.466+0000] {dag.py:4180} INFO - Setting next_dagrun for simulator_5 to 2024-12-29 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2024-12-22T11:57:04.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulator_5.py took 0.158 seconds

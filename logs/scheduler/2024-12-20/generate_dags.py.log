@@ -1,0 +1,84 @@
+[2024-12-20T22:44:03.682+0000] {processor.py:186} INFO - Started process (PID=5164) to work on /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:44:03.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_dags.py for tasks to queue
+[2024-12-20T22:44:03.724+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:44:03.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:44:04.244+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:44:04.182+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_dags.py", line 6, in <module>
+    from django.db import models
+ModuleNotFoundError: No module named 'django'
+[2024-12-20T22:44:04.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:44:04.480+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_dags.py took 0.824 seconds
+[2024-12-20T22:44:36.671+0000] {processor.py:186} INFO - Started process (PID=5228) to work on /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:44:36.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_dags.py for tasks to queue
+[2024-12-20T22:44:36.686+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:44:36.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:44:36.728+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:44:36.720+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_dags.py", line 6, in <module>
+    from django.db import models
+ModuleNotFoundError: No module named 'django'
+[2024-12-20T22:44:36.731+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:44:36.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_dags.py took 0.122 seconds
+[2024-12-20T22:45:07.586+0000] {processor.py:186} INFO - Started process (PID=5284) to work on /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:45:07.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_dags.py for tasks to queue
+[2024-12-20T22:45:07.600+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:45:07.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:45:07.849+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:45:07.686+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_dags.py", line 6, in <module>
+    from django.db import models
+ModuleNotFoundError: No module named 'django'
+[2024-12-20T22:45:07.858+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:45:07.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_dags.py took 0.409 seconds
+[2024-12-20T22:45:43.104+0000] {processor.py:186} INFO - Started process (PID=5351) to work on /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:45:43.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_dags.py for tasks to queue
+[2024-12-20T22:45:43.153+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:45:43.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:45:43.208+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:45:43.201+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_dags.py", line 6, in <module>
+    from django.db import models
+ModuleNotFoundError: No module named 'django'
+[2024-12-20T22:45:43.210+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:45:43.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_dags.py took 0.224 seconds
+[2024-12-20T22:46:15.055+0000] {processor.py:186} INFO - Started process (PID=5411) to work on /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:46:15.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_dags.py for tasks to queue
+[2024-12-20T22:46:15.072+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:46:15.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:46:15.131+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:46:15.116+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_dags.py", line 6, in <module>
+    from django.db import models
+ModuleNotFoundError: No module named 'django'
+[2024-12-20T22:46:15.135+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:46:15.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_dags.py took 0.171 seconds
+[2024-12-20T22:46:46.801+0000] {processor.py:186} INFO - Started process (PID=5475) to work on /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:46:46.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_dags.py for tasks to queue
+[2024-12-20T22:46:46.808+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:46:46.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:46:46.846+0000] {logging_mixin.py:190} INFO - [2024-12-20T22:46:46.837+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/generate_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_dags.py", line 6, in <module>
+    from django.db import models
+ModuleNotFoundError: No module named 'django'
+[2024-12-20T22:46:46.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_dags.py
+[2024-12-20T22:46:46.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_dags.py took 0.132 seconds
